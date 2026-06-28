@@ -2,10 +2,57 @@
 <html>
 <head>
     <title>My First Website</title>
+
+    <style>
+        body{
+            background:#1b1b2f;
+            color:white;
+            font-family:Arial;
+            text-align:center;
+            margin-top:80px;
+        }
+
+        h1{
+            font-size:55px;
+        }
+
+        p{
+            font-size:22px;
+        }
+
+        button{
+            background:#00bfff;
+            color:white;
+            border:none;
+            padding:15px 35px;
+            font-size:20px;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#0095cc;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello, World! 🌍</h1>
-    <p>This is my first website!</p>
-    <p>Made by me.</p>
+
+<h1>🚀 My First Website</h1>
+
+<p>Hello! I'm learning web development.</p>
+
+<p>This website is hosted on GitHub Pages.</p>
+
+<button onclick="hello()">Click Me!</button>
+
+<script>
+
+function hello(){
+    alert("🎉 You clicked the button!");
+}
+
+</script>
+
 </body>
 </html>
